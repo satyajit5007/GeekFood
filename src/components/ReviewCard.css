@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review{
+    padding: 2rem;
+    background-color: #eaeaea;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    color: #2a2a2a;
+}
+
+.reviewer-details{
+    display: flex;
+}
+
+.reviewer-details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.reviewer-name{
+    font-weight: bold;
+}
+
+.reviewer-details img:hover, .review:hover{
+    transform: scale(1.1);
+}

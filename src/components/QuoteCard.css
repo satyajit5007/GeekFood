@@ -1,0 +1,36 @@
+.quote-card-container{
+    width: 100%;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-card{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 2px 2px #aeadad;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-card:hover{
+    box-shadow: 0 0 5px 5px #7b7b7b;
+}
+
+.quote{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom:0.625rem;
+}
+
+.quote-author{
+    font-size: 1rem;
+    color: #908f8f;
+}
+
+@media screen and (max-width:425.5px) {
+    .quote-card-container{
+        padding: 2rem;
+    }
+}
